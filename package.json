@@ -1,1 +1,19 @@
-
+{
+  "name": "rutta-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^18.0.0",
+    "@react-native-firebase/auth": "^18.0.0",
+    "@react-navigation/native": "^6.x",
+    "@react-navigation/stack": "^6.x",
+    "react": "18.2.0",
+    "react-native": "0.7x",
+    "react-native-maps": "^1.x"
+  }
+}
