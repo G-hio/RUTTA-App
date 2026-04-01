@@ -1,31 +1,16 @@
-#  RUTTA-App (Mobile Architecture)
+# RUTTA-App - Movilidad Inteligente
+**Giancarlo Hio Angulo** | **Mobile Developer (8vo Semestre)**
 
-[![React Native](https://img.shields.io/badge/React_Native-0.7x-61DAFB?logo=react&logoColor=black)](https://reactnative.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-Auth_&_DB-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![Status](https://img.shields.io/badge/Status-In_Development-orange)]()
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-**RUTTA-App** es una solución de movilidad inteligente diseñada para la comunidad universitaria de **UNICUCES**. El proyecto busca optimizar la seguridad y los tiempos de espera mediante el rastreo en tiempo real de rutas estudiantiles.
+Sistema de movilidad diseñado para la comunidad de UNICUCES. Enfocado en la seguridad estudiantil y la optimización de tiempos.
 
-##  Visión del Proyecto (MVP)
-* **Seguridad Estudiantil:** Registro y autenticación mediante Firebase Auth.
-* **Geolocalización:** Visualización de rutas en tiempo real (Google Maps API).
-* **Eficiencia Operativa:** Notificaciones de proximidad y gestión de horarios.
+###  Módulos en Desarrollo
+* **Autenticación:** Gestión segura de usuarios mediante Firebase Auth.
+* **Geolocalización:** Rastreo de rutas en tiempo real con Google Maps API.
+* **Arquitectura:** Estructura modular basada en Context API.
 
-##  Stack Tecnológico
-* **Frontend:** React Native (Hooks & Context API).
-* **Backend:** Firebase Cloud Firestore (NoSQL) & Authentication.
-* **Navegación:** React Navigation v6.
-* **Mapas:** React Native Maps.
-
-##  Arquitectura de Carpetas (Clean Architecture)
-El proyecto sigue una estructura modular para facilitar el escalamiento:
-* `src/components`: UI Components reutilizables.
-* `src/screens`: Vistas principales (Login, Map, Profile).
-* `src/navigation`: Configuración de Stacks y Tab Navigators.
-* `src/services`: Lógica de conexión con Firebase y APIs externas.
-
-##  Instalación
-```bash
-git clone [https://github.com/G-hio/RUTTA-App.git](https://github.com/G-hio/RUTTA-App.git)
-npm install
-npx react-native start
+---
+**Contacto:** hiogiancarlo@gmail.com | Cali, Colombia
